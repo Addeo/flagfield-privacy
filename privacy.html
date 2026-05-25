@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="refresh" content="0; url=index.html" />
+  <link rel="canonical" href="index.html" />
+  <title>Privacy Policy — Flagfield</title>
+  <script>
+    (function () {
+      var path = location.pathname.replace(/privacy\.html$/i, 'index.html');
+      var lang = (location.hash || '').replace(/^#\/?/, '');
+      if (!lang) {
+        var m = location.pathname.match(/\/(en|ru|es|de|fr|uk|zh|hi|ar|pt|ja|ko|it|tr)\/?$/i);
+        if (m) lang = m[1];
+      }
+      var target = path + (lang ? (location.protocol === 'file:' ? '#' + lang : '/' + lang) : '');
+      location.replace(target + location.search);
+    })();
+  </script>
+</head>
+<body>
+  <p><a href="index.html">Privacy Policy — Flagfield</a></p>
+</body>
+</html>
