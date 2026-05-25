@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <script>
+    (function () {
+      var repo = '/flagfield-privacy';
+      if (location.pathname.indexOf(repo) !== -1) {
+        var base = document.createElement('base');
+        base.href = repo + '/';
+        document.head.appendChild(base);
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Privacy Policy — Flagfield (com.flagfield.learn)" />
+  <title>Privacy Policy — Flagfield</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <span class="brand">Flagfield</span>
+    <div class="lang-switch">
+      <label for="lang-select">Language</label>
+      <select id="lang-select" aria-label="Language"></select>
+    </div>
+  </header>
+  <main class="content" id="privacy-content"></main>
+  <footer class="site-footer">
+    <p>Flagfield · <code>com.flagfield.learn</code></p>
+    <p>Contact: <a id="footer-contact" href="mailto:supp0rt.serg@yandex.com">supp0rt.serg@yandex.com</a></p>
+  </footer>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
