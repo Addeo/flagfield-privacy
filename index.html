@@ -2,6 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <script>
+    (function () {
+      var repo = '/flagfield-privacy';
+      if (location.pathname.indexOf(repo) !== -1) {
+        var base = document.createElement('base');
+        base.href = repo + '/';
+        document.head.appendChild(base);
+      }
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Privacy Policy — Flagfield (com.flagfield.learn)" />
   <title>Privacy Policy — Flagfield</title>

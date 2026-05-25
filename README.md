@@ -37,11 +37,18 @@ python3 -m http.server 8765
 
 Open http://localhost:8765/?lang=ru
 
-## Deploy
+## Deploy (GitHub Pages)
 
-Upload this folder to any HTTPS static host (Netlify, Cloudflare Pages, GitHub Pages).
+Push to `main` — GitHub Actions deploys the `gh-pages` branch automatically.
 
-Use as `privacyPolicyUrl`, e.g. `https://YOUR_DOMAIN/privacy` or `https://YOUR_DOMAIN/index.html`.
+**Live site:** https://addeo.github.io/flagfield-privacy/
+
+Use as `privacyPolicyUrl`:
+
+- `https://addeo.github.io/flagfield-privacy/`
+- `https://addeo.github.io/flagfield-privacy/ru`
+
+Manual deploy: `npm run predeploy`, then push `dist/` to `gh-pages`.
 
 ## Source of truth
 

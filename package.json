@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build-content.mjs",
+    "predeploy": "npm run build && node scripts/prepare-gh-pages.mjs",
     "lintFormat": "node -e \"process.exit(0)\"",
     "format": "node -e \"process.exit(0)\""
   }
