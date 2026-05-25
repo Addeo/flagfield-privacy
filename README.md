@@ -41,7 +41,8 @@ Open http://localhost:8765/?lang=ru
 
 Push to `main` — GitHub Actions deploys automatically.
 
-**One-time setup:** Repo → **Settings** → **Pages** → **Build and deployment** → Source: **GitHub Actions**.
+**One-time setup (required):** [Settings → Pages](https://github.com/Addeo/flagfield-privacy/settings/pages) → Source: **Deploy from a branch** → Branch: **`gh-pages`** → **`/ (root)`** → Save.  
+Details: [docs/GITHUB-PAGES-SETUP.md](docs/GITHUB-PAGES-SETUP.md)
 
 **Live site:** https://addeo.github.io/flagfield-privacy/
 
